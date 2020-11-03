@@ -1,18 +1,18 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Flashcard Adder                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1439712679                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://drive.google.com/drive/folders/1l7HUs3dhAD9xvtR6m2PouE5FR3FEkuUw?usp=sharing  # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : https://drive.google.com/drive/folders/1DdKLlWFrdiJda7aSrp7lkXoEsevwFZAK?usp=sharing  # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_name                                  : Flashcard Adder                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Create better flashcards for AnkiMobile.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -21,7 +21,7 @@ enable_smart_app_banner                   : true                                
 # Information About Yourself
 your_name                                 : Technaplex                                
 your_link                                 : https://technaplex.com                     
-your_city                                 : Maryland                                
+your_city                                 :                                 
 email_address                             : technaplex@gmail.com
 facebook_username                         :                                           
 instagram_username                        : 
@@ -33,34 +33,27 @@ youtube_username                          :
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
-
-  - title                                 : Search filters
-    description                           : Filter quizbowl questions by category, subcategory, tournament, and/or history.
-    fontawesome_icon_name                 : search
-    
-  - title                                 : Search History
-    description                           : Preview searches are preserved in history.
-    fontawesome_icon_name                 : history
-
-  - title                                 : Offline Use
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
-
-  - title                                 : QuizBuzz
-    description                           : Quiz yourself with randomly selected quizbowl questions!
-    fontawesome_icon_name                 : concierge-bell
-
-  - title                                 : Search within a search
-    description                           : Launch searches from selected text in previous query results (Pro Mode) 
-    fontawesome_icon_name                 : search-plus
-  
-  - title                                 : Integrate with Flashcard Apps
-    description                           : Quickly create flashcards from selected text (Pro Mode)
-    fontawesome_icon_name                 : sticky-note
    
-  - title                                 : Search from Other Apps
-    description                           : Use the action extension to search selected text from other apps
-    fontawesome_icon_name                 : search-location
+  - title                                 : Action Extension
+    description                           : Quickly add flashcards or save work in progress flashcards into the main app with the action extension.
+    fontawesome_icon_name                 : external-link-alt
+
+  - title                                 : Sticky Fields
+    description                           : Easily preserve or clear fields after adding a card.
+    fontawesome_icon_name                 : star
+
+  - title                                 : Automatic Note Type Switching
+    description                           : Flashcard Adder automatically detects clozes and allows pain-free transition between normal and cloze note types.
+    fontawesome_icon_name                 : swatchbook
+
+  - title                                 : Text Clean-Up
+    description                           : Quickly clean errant new lines and spacing commonly present when copying text from pdf files.
+    fontawesome_icon_name                 : broom
+
+  - title                                 : Cloze Options
+    description                           : Convenience buttons and keyboard shortcuts to create different configurations of clozes.
+    fontawesome_icon_name                 : sticky-note
+
 
 
 
