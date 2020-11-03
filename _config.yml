@@ -54,6 +54,10 @@ features                                  :
     description                           : Convenience buttons and keyboard shortcuts to create different configurations of clozes.
     fontawesome_icon_name                 : sticky-note
 
+  - title                                 : Persistent Reference Space
+    description                           : Park useful reference material in a dedicated field separate from the flashcard.
+    fontawesome_icon_name                 : asterisk
+
 
 
 
